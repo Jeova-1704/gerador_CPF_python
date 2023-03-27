@@ -2,7 +2,6 @@ import random
 
 linha = '\033[1;31m=\033[m'
 nome = 'Gerador de CPF válido'
-listas_compras = list() #Ou pode se usar []
 
 print(linha * (len(nome) + 6))
 print(nome.center((len(nome) + 6)))
